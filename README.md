@@ -15,3 +15,9 @@ Extra credit: Instead of a standard 6-sided die, suppose you have an N-sided die
 See the file solution_6sides.sql
 You can run this in a sqlplus session in a schema where the dice package as been installed.
 
+### General solution for N sided die ###
+There are some really nice solutions mentioned on this thread:
+https://twitter.com/xaqwg/status/1243537599626690565
+People have closed form answers nd are showing that avg nuimber of rolls is linear with the number of faces on the die! (slope 2N)
+I might come back and continue this monte-carlo approach so time in the future.
+
